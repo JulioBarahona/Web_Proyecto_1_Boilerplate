@@ -1,0 +1,25 @@
+{
+  "name": "web_proyecto_1_boilerplate",
+  "version": "1.0.0",
+  "description": "boilerpalte that will help set up future personal proyects in less time, with less effort and lower the chances of downloading very useful packages all the time",
+  "main": "index.js",
+  "scripts": {
+    "test": "testboiler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioBarahona/Web_Proyecto_1_Boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "web",
+    "development"
+  ],
+  "author": "Julio Barahona M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulioBarahona/Web_Proyecto_1_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/JulioBarahona/Web_Proyecto_1_Boilerplate#readme"
+}
