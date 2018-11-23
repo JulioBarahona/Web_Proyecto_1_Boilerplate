@@ -1,5 +1,5 @@
-# Web_Proyecto_1_Boilerplate
-# React-Boilerplate
+# Sistemas y tecnologias web
+# Proyecto 1: React Boilerplate
 React boilerplate that will let all my projects be set up with less time and my own taste in coding
 
 ## Get Ready
@@ -14,6 +14,7 @@ After this you can run the following lines and the boilerplate will download any
 ```
 npm install
 npm run build
+npm run build-babel
 npm start
 ```
 
@@ -40,12 +41,56 @@ The packages used in this boilerplate are the following:
 * Webpack
 * ESLint
 
+## Versions
+### General 
+Dendencies that will be installed once the project is started
+
+| Package | Version |
+|:-------------:|:-----:|
+|autoprefixer|9.3.1|
+|babel-core|6.26.3|
+|babel-preset-es2017|6.24.1|
+|css-loader|1.0.1|
+|eslint|5.9.0|
+|express|4.16.4|
+|file-loader|2.0.0|
+|path|0.12.7|
+|react|16.6.3|
+|react-dom|16.6.3|
+|react-redux|5.1.1|
+|react-router|4.3.1|
+|redux|4.0.1|
+|rimraf|2.6.2|
+|saas|1.0.0|
+|sass-loader|7.1.0|
+|style-loader|0.23.1|
+|webpack|4.26.0|
+
+### Developer
+Additional dendencies that will be loaded is developer mode is enabled
+
+| Package | Version |
+|:-------------:|:-----:|
+|babel-cli|6.26.0|
+|babel-loader|8.0.4|
+|babel-preset-env|1.7.0|
+|babel-preset-react|6.24.1|
+|enzyme|3.7.0|
+|enzyme-adapter-react-16|1.7.0|
+|html-webpack-plugin|3.2.0|
+|react-test-renderer|16.6.3|
+|webpack-cli|3.1.2|
+|webpack-dev-middleware|3.4.0|
+|webpack-hot-middleware|2.24.3|
+|webpack-node-externals|1.7.2|
+
+
 ## Extras
 ### Good Read Me files
 If you want to have a nice **read me** file you should use [this ](https://dillinger.io/) website. Its really useful and lets you see in real time how the file will end up looking. 
 
 ### Date of creation
-The of all this packages are as of Search Results 2018 November 22. Im a little bit lazy so if there is no need of exact version i wont change this part. [LUL](https://res.cloudinary.com/teepublic/image/private/s--cpZNQFc0--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1524100575/production/designs/2604462_0.jpg)
+The of all this packages are as of Search Results 2018 November 22. Im a little bit lazy so if there is no need of exact version i wont change this part [.](https://res.cloudinary.com/teepublic/image/private/s--cpZNQFc0--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1524100575/production/designs/2604462_0.jpg)
 
 
 
