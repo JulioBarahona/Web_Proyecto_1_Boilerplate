@@ -47,6 +47,7 @@ Dendencies that will be installed once the project is started
 |@babel/core|^7.1.6|
 |@babel/preset-env|^7.1.6|
 |@babel/preset-react|^7.0.0|
+|babel-loader|^8.0.4|
 |css-loader|1.0.1|
 |eslint|5.9.0|
 |express|4.16.4|

@@ -8,8 +8,13 @@ module.exports = {
     publicPath: '/',
     filename: 'main.js'
   },
+  //to enable hot reloading when testing and developing new things and see changes quicker
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
+  //where the development will be done and the port it will work
   devServer: {
     port:8080,
-    contentBase: './dist',
+    contentBase: './output',
   }
 };
