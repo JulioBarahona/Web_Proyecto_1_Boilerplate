@@ -2,7 +2,7 @@ const webpack = require('webpack');
 module.exports = {
   //where the main file will be liocated
   entry: './input/index.js', 
-  //where the output will be compiled and rendered
+  //where the  output will be compiled and rendered
   output: {
     path: __dirname + '/output',
     publicPath: '/',
@@ -16,5 +16,6 @@ module.exports = {
   devServer: {
     port:8080,
     contentBase: './output',
+    hot: true
   }
 };
