@@ -35,6 +35,8 @@ The packages used in this boilerplate are the following:
 * Babel
 * Webpack
 * ESLint
+* File loaders
+	*	
 
 ## Versions
 ### General 
@@ -42,9 +44,9 @@ Dendencies that will be installed once the project is started
 
 | Package | Version |
 |:-------------:|:-----:|
-|autoprefixer|9.3.1|
-|babel-core|6.26.3|
-|babel-preset-es2017|6.24.1|
+|@babel/core|^7.1.6|
+|@babel/preset-env|^7.1.6|
+|@babel/preset-react|^7.0.0|
 |css-loader|1.0.1|
 |eslint|5.9.0|
 |express|4.16.4|

@@ -1,0 +1,7 @@
+# This folder get way to big and are really painfull to upload and downlaod via git so just download them yourself
+node_modules/
+output/
+
+# These boys started to get a little bit heavy so i wont take them into this ride. Beside they are logs of many different proyects. They are not meant to be merged at all
+logs
+*.log
