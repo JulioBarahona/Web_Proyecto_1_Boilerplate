@@ -1,4 +1,6 @@
+const path = require('path')
 const webpack = require('webpack');
+
 module.exports = {
   //where the main file will be liocated
   entry: './input/index.js', 

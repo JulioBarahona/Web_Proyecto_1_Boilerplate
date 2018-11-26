@@ -1,6 +1,3 @@
-const path = require('path')
-const webpack = require('webpack');
-
 {
   "name": "web_proyecto_1_boilerplate",
   "version": "2.0.0",
@@ -32,6 +29,11 @@ const webpack = require('webpack');
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",
     "react-hot-loader": "^4.3.12",
     "regenerator-runtime": "^0.13.1"
