@@ -1,11 +1,14 @@
+const path = require('path')
+const webpack = require('webpack');
+
 {
   "name": "web_proyecto_1_boilerplate",
   "version": "2.0.0",
   "description": "New Boiler plate with the most recent packages but fewer. Last one i tried to get as much as possible but it went absolutely unsustaible. Soooo...to a better new beggining m8s!",
   "main": "./src/index.js",
   "scripts": {
-    "start" : "webpack-dev-server --config ./webpack.config.js --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,8 +29,12 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
-    "react-hot-loader": "^4.3.12"
+    "jest": "^23.6.0",
+    "react-hot-loader": "^4.3.12",
+    "regenerator-runtime": "^0.13.1"
   },
   "dependencies": {
     "react": "^16.6.3",
